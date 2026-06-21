@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>ZARA MAJU STESEN</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Arial',sans-serif;
+}
+
+body{
+    background:
+    radial-gradient(circle at top right,
+    rgba(255,120,0,0.35),
+    transparent 30%),
+    radial-gradient(circle at bottom left,
+    rgba(255,70,0,0.25),
+    transparent 40%),
+    #0b0b0b;
+    color:white;
+}
+
+/* HEADER */
+.header{
+    background:linear-gradient(135deg,#ff5e00,#ff9500);
+    text-align:center;
+    padding:30px 20px;
+    border-bottom-left-radius:35px;
+    border-bottom-right-radius:35px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.6);
+}
+
+.logo{
+    width:120px;
+    height:auto;
+    margin-bottom:15px;
+    filter:drop-shadow(0 5px 10px rgba(0,0,0,0.5));
+}
+
+.header h1{
+    font-size:32px;
+    text-shadow:0 3px 6px rgba(0,0,0,0.4);
+}
+
+.header p{
+    margin-top:8px;
+    font-size:17px;
+}
+
+
+/* BUTTON */
+.buttons{
+    display:flex;
+    gap:15px;
+    padding:18px;
+}
+
+.buttons a{
+    flex:1;
+    background:linear-gradient(135deg,#ff6a00,#ff9500);
+    color:white;
+    text-decoration:none;
+    text-align:center;
+    padding:15px;
+    border-radius:15px;
+    font-weight:bold;
+    box-shadow:0 6px 15px rgba(0,0,0,0.4);
+    transition:0.3s;
+}
+
+.buttons a:hover{
+    transform:translateY(-4px);
+}
+
+
+/* MENU PDF */
+.menu{
+    margin:15px;
+    background:#fff;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 8px 25px rgba(0,0,0,0.6);
+}
+
+.menu iframe{
+    width:100%;
+    height:80vh;
+    border:none;
+}
+
+
+/* FOOTER */
+.footer{
+    text-align:center;
+    color:#bbb;
+    padding:20px;
+    font-size:14px;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="header">
+
+<!-- TUKAR logo.png kepada nama logo kau -->
+<img src="logo.png" class="logo">
+
+<h1>🍽 ZARA MAJU STESEN</h1>
+
+<p>
+Masakan Panas • Makanan Tengah Hari • Makan Malam
+</p>
+
+</div>
+
+
+
+<div class="buttons">
+
+<a href="https://wa.me/60177892445">
+📱 WhatsApp
+</a>
+
+
+<a href="#">
+📍 Lokasi
+</a>
+
+</div>
+
+
+
+<div class="menu">
+
+<!-- PDF akan kita betulkan lepas ini -->
+<iframe src="menu.pdf"></iframe>
+
+</div>
+
+
+
+<div class="footer">
+
+Terima Kasih kerana berkunjung di restoran kami !!! ❤️
+
+</div>
+
+
+</body>
+
+</html>
